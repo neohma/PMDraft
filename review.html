@@ -1,0 +1,50 @@
+<!-- review.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reviews - SilkSerenity</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Include header -->
+  <div id="header-placeholder"></div>
+  
+  <main>
+    <section class="review">
+      <h2>Customer Reviews</h2>
+      
+      <div class="review-list">
+        <div class="review-item">
+          <h3>Emily R.</h3>
+          <p>"The volume lashes I got were amazing! My eyes look so much brighter and full of life. Definitely coming back!"</p>
+        </div>
+        <div class="review-item">
+          <h3>Sophia M.</h3>
+          <p>"The classic lashes were perfect for me. I love how natural they look, and the service was wonderful!"</p>
+        </div>
+        <div class="review-item">
+          <h3>Isabella W.</h3>
+          <p>"SilkSerenity did a fantastic job with my hybrid lashes! I’ve never had so many compliments. Highly recommended!"</p>
+        </div>
+      </div>
+
+      <div class="leave-review">
+        <h3>Leave a Review</h3>
+        <form action="#" method="POST">
+          <label for="reviewer-name">Your Name</label>
+          <input type="text" id="reviewer-name" name="reviewer-name" required>
+
+          <label for="review-message">Your Review</label>
+          <textarea id="review-message" name="review-message" rows="4" required></textarea>
+
+          <button type="submit">Submit Review</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

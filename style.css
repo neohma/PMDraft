@@ -1,0 +1,54 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .account-icon {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .main {
+    padding: 20px;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .about, .gallery, .service, .contact, .review {
+    padding: 20px;
+  }
+  

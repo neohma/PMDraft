@@ -1,0 +1,44 @@
+<!-- gallery.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery - SilkSerenity</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Include header -->
+  <div id="header-placeholder"></div>
+  
+  <main>
+    <section class="gallery">
+      <h2>Gallery</h2>
+      <div class="image-grid">
+        <div class="image-card">
+          <h3>Serenity Tinting</h3>
+          <img src="tinting.jpg" alt="Serenity Tinting">
+        </div>
+        <div class="image-card">
+          <h3>Classic</h3>
+          <img src="classic.jpg" alt="Classic">
+        </div>
+        <div class="image-card">
+          <h3>Hybrid</h3>
+          <img src="hybrid.jpg" alt="Hybrid">
+        </div>
+        <div class="image-card">
+          <h3>Volume</h3>
+          <img src="volume.jpg" alt="Volume">
+        </div>
+        <div class="image-card">
+          <h3>Mega</h3>
+          <img src="mega.jpg" alt="Mega">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
